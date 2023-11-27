@@ -1,0 +1,50 @@
+[
+    {
+        "id": "uuidv4()",
+        "thumbnail": "tas-hali-thumb",
+        "heading": "Taş Halı | Stone Carpet",
+        "text": "Taş halı kaplama, mekanlara sıcak bir dokunuş ve doğal bir atmosfer katmak isteyenler için ideal bir zemin kaplama çözümüdür. Geleneksel halılardan farklı olarak, taş halı kaplama özgün desen ve renk seçenekleriyle mekanınıza estetik bir şıklık sunar."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "sap-thumb",
+        "heading": "Zemin Betonları",
+        "text": "Helikopterli şap, genellikle yeni inşaat projelerinde ve mevcut binalarda zeminin güçlendirilmesi ve düzeltilmesi amacıyla kullanılır. Hem ticari hem de konut projelerinde tercih edilen bir zemin kaplama çözümüdür."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "beton-silim-thumb",
+        "heading": "Beton Parlatma",
+        "text": "Beton parlatma, endüstriyel ve modern bir estetik sunan bir seçenektir. Yüzeyin cilalanmasıyla elde edilen parlaklık, mekanlara şıklık ve çağdaş bir hava katar. Kolay bakımı ve uzun ömrüyle beton parlatma, özellikle ticari alanlarda tercih edilen bir zemin kaplama çözümüdür."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "epoksi-thumb",
+        "heading": "Epoksi Zemin\r\n",
+        "text": "Epoksi kaplama, dayanıklılığıyla bilinen bir malzeme olup kimyasal direnci ve estetik görünümüyle öne çıkar. Bu kaplama, özellikle fabrika zeminleri, otomobil galerileri ve laboratuvar gibi yoğun kullanım alanları için ideal bir tercihtir. Su geçirmez özelliği ve kolay temizlenebilir yapısı, epoksi kaplamayı cazip kılar."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "baski-betonu-thumb",
+        "heading": "Dekoratif Zemin\r\n",
+        "text": "iç ve dış mekanlarda estetik bir görünüm sağlar. Desen ve renk çeşitliliği sayesinde mekanınıza özgü bir atmosfer yaratmanızı sağlar. Dayanıklı yapısı ve kolay bakımı, dekoratif betonu öne çıkaran diğer özelliklerdir."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "kaucuk-zemin-thumb",
+        "heading": "Kauçuk Zemin\r\n",
+        "text": "Spor salonları, çocuk oyun alanları ve fitness merkezleri için ideal olan kauçuk zemin, şok emici özelliği ile öne çıkar. Kaymaz yapısı ve dayanıklılığı sayesinde güvenli bir zemin sunar. Renk seçenekleriyle mekanınıza enerji katar ve kullanıcılarına konforlu bir deneyim sunar."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "flake-zemin-thumb",
+        "heading": "Flake Zemin\r\n",
+        "text": "Endüstriyel ve ticari mekanlarda tercih edilen flake zemin, çeşitli renk seçenekleri ve çiplerle kişiselleştirilebilir bir zemin kaplama çözümü sunar. Kimyasal dayanıklılığı, uzun ömrü ve estetik görünümü ile bu kaplama, modern mekanlara özgünlük katar."
+    },
+    {
+        "id": "uuidv4()",
+        "thumbnail": "mikro-beton-thumb",
+        "heading": "Mikro Beton\r\n",
+        "text": "Mikro beton, ince bir tabaka halinde uygulanan modern bir zemin kaplama çözümüdür. Estetik görünümü, hafifliği ve çeşitli renk seçenekleri ile mikro beton, iç mekanlara özgün bir dokunuş katar."
+    }
+]
