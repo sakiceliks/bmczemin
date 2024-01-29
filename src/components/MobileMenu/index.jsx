@@ -1,7 +1,7 @@
 /* eslint-disable react/no-array-index-key */
 import React, { useState } from 'react';
 import * as AiIcons from 'react-icons/ai';
-import { AiOutlineBars } from 'react-icons/ai';
+import { AiOutlineBars,AiOutlineWhatsApp } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import MenuContent from './MenuContent';
@@ -62,6 +62,11 @@ const MobileMenu = () => {
                         {menuData.map((item, index) => (
                             <SubMenu item={item} key={index} />
                         ))}
+                       <div className='w-100 d-flex'>
+                       <Link to="/contact" className="mt-3 align-middle text-center mx-auto  justify-content-center btn btn-success btn-lg mt-30 d-inline-flex align-center justify-content-between">
+                      <AiOutlineWhatsApp style={{marginRight:'15px'}} size={30} />  İletişime Geç
+                    </Link>
+                       </div>
                     </SidebarWrap>
                 </SidebarNav>
             </>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { HiLocationMarker } from "react-icons/hi";
+import { IoIosBusiness } from "react-icons/io";
 
 function FilterItem({ image, name, price, heading }) {
     return (
@@ -13,8 +15,8 @@ function FilterItem({ image, name, price, heading }) {
                 </div>
                 <div className="cause-content">
                     <div className="cause-meta d-flex">
-                        <div className="author mr-15">{name}</div>|
-                        <div className="project-amount ml-15">{price}</div>
+                        <div className="author mr-15"><IoIosBusiness className='mb-1 mr-1'/>{name}</div>|
+                        <div className="project-amount ml-15 d-inline-flex align-center "><HiLocationMarker className='mb-1 mr-1'/>{price}</div>
                     </div>
                     <h4>
                         <Link to="/project-details">{heading}</Link>

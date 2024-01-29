@@ -70,7 +70,7 @@ function Footer1() {
                                             value={email}
                                             onChange={onchangeHandler}
                                             type="email"
-                                            placeholder="Enter email address"
+                                            placeholder="Email Adresinizi Girin"
                                             required
                                         />
                                         <button

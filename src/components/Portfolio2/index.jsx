@@ -12,7 +12,7 @@ function Portfolio2() {
                     <div className="col-lg-12 col-12 text-center mb-30">
                         <div className="section-title-3">
                             <p>Portfolio</p>
-                            <h1>Some Case Study</h1>
+                            <h1>Some Projelerimiz</h1>
                         </div>
                     </div>
                 </div>

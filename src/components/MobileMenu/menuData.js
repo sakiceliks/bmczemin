@@ -14,27 +14,27 @@ const menuData = [
         title: 'Hakkımızda',
         path: '/hakkimizda',
     },
-{  title: 'Blog',
-path: '/blogs',
+// {  title: 'Blog',
+// path: '/blogs',
 
-},
-    {
-        title: 'Projeler',
-        path: '/projects',
+// },
+    // {
+    //     title: 'Projeler',
+    //     path: '/projects',
 
-        iconClosed: <CgChevronLeft />,
-        iconOpened: <CgChevronDown />,
-    },
+    //     iconClosed: <CgChevronLeft />,
+    //     iconOpened: <CgChevronDown />,
+    // },
 
     {
         title: 'Hizmetlerimiz',
         path: '/services',
     },
 
-    {
-        title: 'Bülten',
-        path: '/news',
-    },
+    // {
+    //     title: 'Bülten',
+    //     path: '/news',
+    // },
 
     {
         title: 'İletişim',

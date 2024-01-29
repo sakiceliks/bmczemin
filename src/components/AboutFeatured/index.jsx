@@ -23,7 +23,7 @@ function AboutFeatured() {
                         <div className="col-xl-6 col-lg-5 col-12">
                             <div
                                 className="about-promo bg-cover"
-                                style={{ backgroundImage: `url(${aboutImg})` }}
+                                style={{ backgroundImage: `url('https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7c629c4c43fcd26c6/view?project=654d24a6efcad9eb4ff2&mode=admin')` }}
                             >
                                 <div
                                     className="skill-popup-video d-flex justify-content-center align-items-center bg-cover"
@@ -60,7 +60,7 @@ function AboutFeatured() {
                                 />
                                 <IconBox
                                     icon={<FaRoad />}
-                                    heading="Beton Parlatma"
+                                    heading="Epoksi Zemin"
                                     text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
                                 /> <IconBox
                                 icon={<FaHardHat />}

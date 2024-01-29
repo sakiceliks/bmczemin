@@ -44,7 +44,7 @@ function Subscribe() {
                                         value={email}
                                         onChange={onChangeHandler}
                                         type="email"
-                                        placeholder="Enter email address"
+                                        placeholder="Email Adresinizi Girin"
                                         required
                                     />
                                     <button
