@@ -23,7 +23,7 @@ function AboutFeatured() {
                         <div className="col-xl-6 col-lg-5 col-12">
                             <div
                                 className="about-promo bg-cover"
-                                style={{ backgroundImage: `url(${aboutImg})` }}
+                                style={{ backgroundImage: `url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/b0099b184608815.6554f122bb4fd.jpg')` }}
                             >
                                 <div
                                     className="skill-popup-video d-flex justify-content-center align-items-center bg-cover"
