@@ -8,7 +8,7 @@ import { Route, Switch, useParams, useRouteMatch, useHistory } from 'react-route
 function GetBlog() {
 
     const client = new Client()
-    .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+    .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
     .setProject("654d24a6efcad9eb4ff2");
     
     const databases = new Databases(client);
@@ -29,7 +29,7 @@ function GetBlog() {
         const fetchData = async () => {
           try {
             client
-            .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+            .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
             .setProject('654d24a6efcad9eb4ff2');
       
             const databases = new Databases(client);

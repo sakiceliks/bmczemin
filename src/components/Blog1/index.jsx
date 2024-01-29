@@ -8,7 +8,7 @@ import BlogOneItem from './BlogOneItem';
 
 function Blog1() {
     const client = new Client()
-    .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+    .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
     .setProject("654d24a6efcad9eb4ff2");
     
     const databases = new Databases(client);
@@ -30,7 +30,7 @@ function Blog1() {
         const fetchData = async () => {
           try {
             client
-            .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+            .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
             .setProject('654d24a6efcad9eb4ff2');
       
             const databases = new Databases(client);
