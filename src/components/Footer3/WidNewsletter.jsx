@@ -26,7 +26,7 @@ function WidNewsletter() {
                         value={email}
                         onChange={handleChange}
                         type="email"
-                        placeholder="Enter email address"
+                        placeholder="Email Adresinizi Girin"
                         required
                     />
                     <button onSubmit={handleSubmit} className="submit-btn" type="submit">

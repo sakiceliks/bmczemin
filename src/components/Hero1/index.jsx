@@ -10,7 +10,7 @@ SwiperCore.use([Autoplay, Lazy]); // Lazy modülünü Swiper'a ekleyin
 
 function Hero1() {
   const client = new Client()
-    .setEndpoint("https://process.env.REACT_APP_ENDPOINT")
+    .setEndpoint(process.env.REACT_APP_ENDPOINT)
     .setProject("654d24a6efcad9eb4ff2");
 
   const databases = new Databases(client);

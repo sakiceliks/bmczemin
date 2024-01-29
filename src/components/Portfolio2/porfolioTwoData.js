@@ -8,33 +8,33 @@ const portfolioTwoData = [
     {
         id: uuidv4(),
         image: img1,
-        name: 'Rosalina D.',
+        name: 'Şirket Adı',
         heading: 'Leverages agile motive frameworks',
-        cost: '$56,000',
+        cost: 'Istanbul',
     },
 
     {
         id: uuidv4(),
         image: img2,
-        name: 'Rosalina D.',
+        name: 'Şirket Adı',
         heading: 'Leverage agile motive frameworks',
-        cost: '$56,000',
+        cost: 'Istanbul',
     },
 
     {
         id: uuidv4(),
         image: img3,
-        name: 'Rosalina D.',
+        name: 'Şirket Adı',
         heading: 'Leverage agile motive frameworks',
-        cost: '$56,000',
+        cost: 'Istanbul',
     },
 
     {
         id: uuidv4(),
         image: img4,
-        name: 'Rosalina D.',
+        name: 'Şirket Adı',
         heading: 'Leverage agile motive frameworks',
-        cost: '$56,000',
+        cost: 'Istanbul',
     },
 ];
 

@@ -6,22 +6,22 @@ const WidgetGetinTouchData = [
     {
         id: uuidv4(),
         icon: <AiOutlinePhone />,
-        heading: 'Phone Number',
+        heading: 'Telefon No',
         text: '+90 531 281 29 58',
     },
 
     {
         id: uuidv4(),
         icon: <AiOutlineMail />,
-        heading: 'Phone Number',
-        text: '+90 531 281 29 58',
+        heading: 'Email',
+        text: 'info@bmczemin.com.tr',
     },
 
     {
         id: uuidv4(),
         icon: <BiMap />,
-        heading: 'Phone Number',
-        text: '+90 531 281 29 58',
+        heading: 'Adres',
+        text: 'Sancaktepe / İstanbul',
     },
 ];
 

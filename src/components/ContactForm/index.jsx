@@ -38,7 +38,7 @@ function ContactForm({ title, heading }) {
                                     type="email"
                                     labelFor="email"
                                     label="Email Address"
-                                    placeholder="Enter Email Address"
+                                    placeholder="Email Adresinizi Girin"
                                     id="email"
                                 />
                                 <FormInput
