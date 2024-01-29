@@ -7,25 +7,25 @@ const WidgetNewsData = [
     {
         id: uuidv4(),
         thumbnail: thumb1,
-        meta: '24th November 2020',
-        heading: 'The Most Successful Engineering Contractor',
-        link: '/news-details',
+        meta: '02 Şubat 2024',
+        heading: 'Modern Tasarımın İnceliği: Mikro Betonun Estetik ve Dayanıklılığı',
+        link: '/modern-tasarimin-inceligi-mikro-betonun-estetik-ve-dayanikliligi',
     },
 
     {
         id: uuidv4(),
         thumbnail: thumb2,
-        meta: '24th November 2020',
-        heading: 'The Most Successful Engineering Contractor',
-        link: '/news-details',
+        meta: '04 Şubat 2024',
+        heading: 'Taş Halı Kaplama Stone Carpet',
+        link: '/tas-hali-kaplama-stone-carpet',
     },
 
     {
         id: uuidv4(),
         thumbnail: thumb3,
-        meta: '24th November 2020',
-        heading: 'The Most Successful Engineering Contractor',
-        link: '/news-details',
+        meta: '04 Şubat 2024',
+        heading: 'Renkli Taşların Dansı: Flake Zeminin Modern ve Dayanıklı Dokusu',
+        link: '/renkli-taslarin-dansi-flake-zeminin-modern-ve-dayanikli-dokusu',
     },
 ];
 

@@ -6,7 +6,7 @@ function PortfolioGallery({ galeryImg }) {
         <div className="col-lg-4 col-md-6 col-12">
             <div className="project-shot">
                 <SRLWrapper>
-                    <a href={galeryImg} className="popup-gallery">
+                    <a to={galeryImg} className="popup-gallery">
                         {' '}
                         <img src={galeryImg} alt="" />
                     </a>

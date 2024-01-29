@@ -17,7 +17,7 @@ function Hero3() {
                                     <Link to="/services" className="theme-btn theme-3">
                                         Our Services <BsArrowRight />
                                     </Link>
-                                    <Link to="/about" className="theme-btn theme-3">
+                                    <Link to="/hakkimizda" className="theme-btn theme-3">
                                         learn more
                                     </Link>
                                 </div>

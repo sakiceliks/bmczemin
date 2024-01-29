@@ -6,7 +6,7 @@ import Map from './Map';
 
 function ContactUs() {
     return (
-        <section className="contact-page-wrap section-padding">
+        <section className="contact-page-wrap section-padding rounded-full	">
             <div className="container">
                 <div className="row">
                     {contactData.map((data) => (

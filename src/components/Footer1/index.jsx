@@ -111,7 +111,7 @@ function Footer1() {
                         <div className="col-lg-4 col-12">
                             <div className="copyright-info">
                                 <p>
-                                    &copy; Copyright By <a href="index.html">Dustrix</a> - 2021
+                                    &copy; Copyright By <a href="index.html">BMÇ ZEMİN</a> - 2024
                                 </p>
                             </div>
                         </div>

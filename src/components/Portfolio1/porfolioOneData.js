@@ -7,7 +7,7 @@ const portfolioOneData = [
         image: Img1,
         category: 'Industrial',
         client: 'Rosalina D.',
-        heading: 'Leverage agile motive frameworks',
+        heading: 'Leveragexs agile motive frameworks',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui',
         btnText: 'Case Details',
     },

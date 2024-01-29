@@ -3,46 +3,43 @@ import { SRLWrapper } from 'simple-react-lightbox';
 import img1 from '../../assets/img/gallery/5.jpg';
 import img2 from '../../assets/img/gallery/6.jpg';
 
-function DetailsContent({ id, thumbnail, icon, heading, text }) {
+function DetailsContent({ id, thumbnail, icon, heading, content,slogan,areause,cover1,cover2 }) {
     console.log(id);
     return (
         <>
             <h2>{heading}</h2>
             <p>
-                {text}
+                {content}
             </p>
 
-            <h2>Quality Construction</h2>
+            <h2>{heading} Neden Tercih Edilir ve Nerelerde kullanılır?</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, ipsa!
-                Repellendus at accusantium dolore rerum exercitationem iusto error? Odio deleniti in
-                iste tenetur placeat excepturi eum officia ratione, vel aperiam?
+               {areause}
             </p>
             <SRLWrapper>
                 <div className="row">
                     <div className="col-md-6 col-12">
-                        <a href={img1} className="popup-gallery">
-                            <img src={img1} alt="" />
+                        <a to={cover1} className="popup-gallery">
+                            <img src={cover1} alt="" />
                         </a>
                     </div>
                     <div className="col-md-6 col-12">
-                        <a href={img2} className="popup-gallery">
-                            <img src={img2} alt="" />
+                        <a to={cover2} className="popup-gallery">
+                            <img src={cover2} alt="" />
                         </a>
                     </div>
                 </div>
             </SRLWrapper>
 
-            <h2>What You Receive?</h2>
+            {/* <h2>What You Receive?</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi architecto, ipsam
                 deleniti recusandae error voluptatum animi, quo aliquam doloribus reprehenderit
                 natus, illo neque earum. Ratione totam necessitatibus possimus tempore tempora?
-            </p>
+            </p> */}
 
             <blockquote>
-                Viral dreamcatcher keytar typewriter, aest hetic offal umami. Aesthetic polaroid pug
-                pitchfork post-ironic.
+               {slogan}
             </blockquote>
         </>
     );

@@ -37,23 +37,28 @@ function ServiceDetails() {
       <DetailsContent {...service} />
       </div>
       <div className="faq-content pl-0 pl-md-4">
-        <h2>What Is Include?</h2>
+        <h2>Sıkça Sorulan Sorular</h2>
         <FaqAccordion
-          question="100% Satisfaction Guarantee."
-          answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+          question={service.question1}
+          answer={service.answer1}
         />
           <FaqAccordion
-                    question="100% Satisfaction Guarantee."
-                    answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                    question={service.question2}
+                    answer={service.answer2}
                 />
                 <FaqAccordion
-                    question="Accurate Testing Processes."
-                    answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                    question={service.question3}
+                    answer={service.answer3}
                 />
                 <FaqAccordion
-                    question="35+ Years Of Experience."
-                    answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus dolor at libero ultricies ullamcorper vel ut dui. Maecenas sollicitudin risus non faucibus blandit. Nulla facilisi."
+                   question={service.question4}
+                   answer={service.answer4}
                 />
+                  <FaqAccordion
+                   question={service.question5}
+                   answer={service.answer5}
+                />
+   
       </div>
     </div>
   );

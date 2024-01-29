@@ -27,19 +27,19 @@ function AuthorWidget({
                 <h4>{authorName}</h4>
                 <p>{text}</p>
                 <div className="social-profile">
-                    <a href={fbLink}>
+                    <a to={fbLink}>
                         <FaFacebookF />
                     </a>
-                    <a href={twitterLink}>
+                    <a to={twitterLink}>
                         <FaTwitter />
                     </a>
-                    <a href={instaLink}>
+                    <a to={instaLink}>
                         <FaInstagram />
                     </a>
-                    <a href={linkedinLink}>
+                    <a to={linkedinLink}>
                         <FaLinkedinIn />
                     </a>
-                    <a href={YoutubeLink}>
+                    <a to={YoutubeLink}>
                         <FaYoutube />
                     </a>
                 </div>

@@ -17,18 +17,18 @@ function TeamItem({ img, position, name, fbLink, twitterLink, behanceLink, youtu
                         <FaPlus />
                     </div>
                     <div className="top">
-                        <a href={fbLink}>
+                        <a to={fbLink}>
                             <FaFacebookF />
                         </a>
-                        <a href={twitterLink}>
+                        <a to={twitterLink}>
                             <FaTwitter />
                         </a>
                     </div>
                     <div className="right">
-                        <a href={behanceLink}>
+                        <a to={behanceLink}>
                             <FaBehance />
                         </a>
-                        <a href={youtubeLink}>
+                        <a to={youtubeLink}>
                             <FaYoutube />
                         </a>
                     </div>

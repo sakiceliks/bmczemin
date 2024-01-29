@@ -4,15 +4,16 @@ import { BsEye } from 'react-icons/bs';
 import { FaRegComments } from 'react-icons/fa';
 import thumb1 from '../../assets/img/blog/p1.jpg';
 import thumb2 from '../../assets/img/blog/p2.jpg';
+import {Category} from '@material-ui/icons';
 
-function SinglePost() {
+function SinglePost({author,content,title,thumbnail,category,date}) {
     return (
         <div className="single-blog-post post-details">
             <div className="post-content">
                 <div className="post-cat">
-                    <a href="news.html">Business</a>
+                    <a href="news.html">{category}</a>
                 </div>
-                <h2>Dharma Home Suites at Novia offers fully plain furnished apartments to fit</h2>
+                <h2>{title}</h2>
                 <div className="post-meta">
                     <span>
                         <BsEye
@@ -22,7 +23,7 @@ function SinglePost() {
                                 marginTop: '-2px',
                             }}
                         />
-                        232 Views
+                        231 Views
                     </span>
                     <span>
                         <FaRegComments
@@ -42,15 +43,9 @@ function SinglePost() {
                                 marginTop: '-2px',
                             }}
                         />
-                        24th March 2019
-                    </span>
+{date}                    </span>
                 </div>
-                <p>
-                    Flyingfish Kafue pike cow shark California smoothtongue golden loach temperate
-                    ocean-bass gulper eel. Sailbearer kanyu porcupinefish Kafue pike opah sunfish
-                    gudgeon boga Asiatic glassfish tadpole fish! Alewife, poacher airbreathing
-                    catfish; zebra tilapia northern pearleye naked-back knifefish pupfish dojo
-                    loach,
+                <p>{content}
                 </p>
                 <p>
                     Asian carps sailback scorpionfish; dragon goby lemon sole triplefin blenny hog
@@ -68,7 +63,7 @@ function SinglePost() {
                     Quillfish slickhead mora. snake worm mackerel sockeye salmon banjo catfish
                     toadfish sauger four-eyed fish
                 </p>
-                <img src={thumb1} alt="" />
+                <img src={thumbnail} alt="" />
                 <h2>A cleansing hot shower or bath</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor

@@ -12,9 +12,12 @@ const menuData = [
 
     {
         title: 'Hakkımızda',
-        path: '/about',
+        path: '/hakkimizda',
     },
+{  title: 'Blog',
+path: '/blogs',
 
+},
     {
         title: 'Projeler',
         path: '/projects',
@@ -29,7 +32,7 @@ const menuData = [
     },
 
     {
-        title: 'News',
+        title: 'Bülten',
         path: '/news',
     },
 

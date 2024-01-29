@@ -15,10 +15,10 @@ function About() {
             <Header1 />
             <PageBanner bannerBg={bannerBg} currentPage="Hakkımızda" heading="Hakkımızda" />
             <AboutFeatured />
-            <Approch />
-            <SkillSet />
+            {/* <Approch />
+            <SkillSet /> */}
             <Sponsors />
-            <Timeline />
+            {/* <Timeline /> */}
             <Footer1 />
         </>
     );

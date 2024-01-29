@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollIndicator from './components/ScrollIndicator';
+import RenkKartelasi from './components/RenkKartelasi';
+
 import ScrollToTopRoute from './components/ScrollTopRoute';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -17,6 +19,10 @@ import ServicesDetails from './pages/ServicesDetails';
 import Team from './pages/Team';
 import Admin from './pages/Admin';
 import { UserProvider } from './lib/user';
+import Blogs from './pages/Blogs';
+import BlogDetails from './components/BlogDetails';
+import MyPage from './components/AdminComp';
+import BlogPage from './pages/blogpage';
 
 function App() {
 
@@ -31,7 +37,7 @@ function App() {
                     <Route exact path="/home-3">
                         <Home3 />
                     </Route>
-                    <Route exact path="/about">
+                    <Route exact path="/hakkimizda">
                         <About />
                     </Route>
                     <Route exact path="/team">
@@ -65,14 +71,22 @@ function App() {
                     
                     <Home1 />
                     </Route>
-                    <Route exact path="/admin">
-                        <Admin />
+                    <Route exact path="/blogs">
+                    
+                    <BlogPage/>
                     </Route>
+                    <Route exact path="/blogs/:slug">
+                    
+                    <BlogDetails/>
+                    </Route>
+                    <Route exact path="/admin">
+                    <MyPage/>                    </Route>
                 </Switch>
             </Router>
             </UserProvider>
 
             <ScrollIndicator />
+
         </>
     );
 }

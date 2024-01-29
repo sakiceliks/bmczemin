@@ -22,7 +22,7 @@ function MainMenu({ hanldeOffset }) {
         { title: 'News', path: '/news', subMenu: [] },
         { title: 'İletişim', path: '/contact', subMenu: [] },
       ];
-      
+        
 
     const location = useLocation();
    
@@ -37,7 +37,7 @@ function MainMenu({ hanldeOffset }) {
               <ul className="sub-menu">
                 {item.subMenu.map((subItem) => (
                   <li key={subItem.path}>
-                    <Link href={subItem.path}>{subItem.title}</Link>
+                    <Link to={subItem.path}>{subItem.title}</Link>
                   </li>
                 ))}
               </ul>

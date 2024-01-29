@@ -15,8 +15,8 @@ import Subscribe from '../components/Subscribe';
 function Home1() {
     return (
         <>
-            <Header1 />
-            <Hero1 />
+           <div className='section-bg'>
+           <Header1 />
             <Promo />
             <Services1 />
             <Cta />
@@ -24,6 +24,7 @@ function Home1() {
             <Portfolio1 />
             <Blog1 />
             <Footer1 />
+           </div>
         </>
     );
 }

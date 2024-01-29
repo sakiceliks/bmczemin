@@ -5,7 +5,7 @@ import AgeImg from '../../assets/img/age.png';
 
 function Promo() {
     return (
-        <section className="promo-featured-wrapper section-padding">
+        <section className="promo-featured-wrapper section-padding section-bg">
             <div className="container">
                 <div className="row align-center">
                     <div className="col-xl-6 col-12 text-center">
@@ -25,7 +25,7 @@ function Promo() {
                             <p>
                             Profesyonel zemin kaplamaları hizmetimizle yaşam alanlarınızı yeniden şekillendiriyoruz. Sektördeki deneyimimiz ve uzman ekibimizle her projeye özel çözümler sunarak, beklentilerinizi en üst düzeyde karşılıyoruz.
                             </p>
-                            <Link to="/contact" className="theme-btn">
+                            <Link to="/contact" className="d-inline-flex theme-btn">
                                 İletişime Geç
                                 <BsArrowRight style={{ fontSize: '20px', marginLeft: '15px' }} />
                             </Link>

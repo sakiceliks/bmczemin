@@ -17,7 +17,7 @@ function AboutFeatured() {
                 videoId="EZ9DrY43wtw"
                 onClose={() => setOpen(false)}
             />
-            <section className="about-featured-wrapper section-padding">
+            <section className="about-featured-wrapper section-bg section-padding">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-6 col-lg-5 col-12">
@@ -44,25 +44,34 @@ function AboutFeatured() {
 
                         <div className="col-xl-6 col-lg-7 col-12 mt-5 mt-lg-0">
                             <div className="block-contents ml-lg-5">
-                                <span>Easily import the whole Industry</span>
-                                <h1>Amwerk is always interested.</h1>
+                                <span>HAKKIMIZDA
+</span>
+                                <h1 style={{color:'#ff462e'}}>Biz Kimiz?</h1>
                                 <h4>
-                                    Capitalise on low hanging fruit to identify a ballpark value
-                                    added activity to beta test.
+                                Sektördeki 30 yıllık tecrübemizle ve gelişen yapı sistemlerindeki en güncel; sağlam, ekonomik, fonksiyonel, estetik bütünlüğü bir araya getirerek ticari ve yaşam alanlarınıza en avantajlı çözümü sunuyoruz. İhtiyaçlarınızı planlayarak size en uygun seçenekleri en yüksek standartlarda ve uygun fiyat garantisiyle sunuyoruz.
                                 </h4>
                             </div>
 
                             <div className="icon-boxs ml-lg-5">
                                 <IconBox
                                     icon={<FaHardHat />}
-                                    heading="Great Wall Support"
+                                    heading="Zemin Betonları"
                                     text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
                                 />
                                 <IconBox
                                     icon={<FaRoad />}
-                                    heading="Creative Ideas"
+                                    heading="Beton Parlatma"
                                     text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
-                                />
+                                /> <IconBox
+                                icon={<FaHardHat />}
+                                heading="Zemin Betonları"
+                                text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
+                            />
+                            <IconBox
+                                icon={<FaRoad />}
+                                heading="Beton Parlatma"
+                                text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
+                            />
                             </div>
                         </div>
                     </div>
