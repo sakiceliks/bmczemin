@@ -17,16 +17,16 @@ function TagShare({ tag1, tag2, tag3, fbLink, twitterLink, instaLink, linkedInLi
                 <div className="col-lg-6 col-12 text-end">
                     <h4>Social Share</h4>
                     <div className="social-share">
-                        <a href={fbLink}>
+                        <a to={fbLink}>
                             <FaFacebookF />
                         </a>
-                        <a href={twitterLink}>
+                        <a to={twitterLink}>
                             <FaTwitter />
                         </a>
-                        <a href={instaLink}>
+                        <a to={instaLink}>
                             <FaInstagram />
                         </a>
-                        <a href={linkedInLink}>
+                        <a to={linkedInLink}>
                             <FaLinkedinIn />
                         </a>
                     </div>

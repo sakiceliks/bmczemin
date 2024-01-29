@@ -10,9 +10,9 @@ function Contact() {
     return (
         <>
             <Header1 />
-            <PageBanner bannerBg={bannerBg} heading="Contact Us" currentPage="Contact" />
+            <PageBanner bannerBg={bannerBg} heading="İletişim" currentPage="Contact" />
             <ContactUs />
-            <ContactForm title="Write Message" heading="İletişim" />
+            <ContactForm title="Mesaj Yaz " heading="İletişim" />
             <Footer1 />
         </>
     );

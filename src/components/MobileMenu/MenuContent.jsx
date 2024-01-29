@@ -16,7 +16,7 @@ const MenuContent = () => (
         </ul>
         <div className="bottom-btn">
             <Link to="/contact" className="d-btn theme-btn d-block text-white">
-                Contact Us
+                İletişim
             </Link>
         </div>
     </div>

@@ -43,7 +43,7 @@ function MainMenu2() {
                                             </ul>
                                         </li>
                                         <li>
-                                            <Link to="/about">About</Link>
+                                            <Link to="/hakkimizda">About</Link>
                                         </li>
                                         <li>
                                             <Link to="/">Pages</Link>

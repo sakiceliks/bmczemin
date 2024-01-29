@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlinePhone,AiOutlineWhatsApp  } from 'react-icons/ai';
 import {
     FaClock,
     FaDribbble,
@@ -12,7 +12,8 @@ import {
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/img/logo.png';
-
+import menuData from '../MobileMenu/menuData';
+import AnaMenu from './menu';
 function OffsetMenu({ className, handleOffset }) {
     return (
         <div className={className}>
@@ -27,17 +28,23 @@ function OffsetMenu({ className, handleOffset }) {
                         </Link>
                     </div>
                 </div>
+                
                 <div className="offset-menu-section">
-                    <h3>Hakkımızda</h3>
-                    <p>
-                        We must explain to you how all seds this mistakens idea off denouncing
-                        pleasures and praising pain was born and I will give you a completed
-                    </p>
-                    <Link to="/contact" className="theme-btn mt-30">
-                        Consultation
+                {menuData.map((item, index) => (
+                            <AnaMenu item={item} key={index} />
+                        ))}
+                        <div className='col-md-12 text-center'>
+                        <Link to="/contact" className="btn btn-success btn-lg mt-30 d-inline-flex align-center justify-content-between">
+                      <AiOutlineWhatsApp style={{marginRight:'15px'}} size={30} />  İletişime Geç
                     </Link>
+                        </div>
+                   
                 </div>
-                <div className="offset-menu-section">
+                {/* <ul  className='list-group list-group-light'>
+                            <li className='list-group-item list-group-item-dark flex-column text-center align-items-center'>  <Link style={{color:'black!important'}}>(+90) 531 281 29 58</Link></li>
+                                <li className='list-group-item list-group-item-dark flex-column text-center align-items-center '> <Link style={{color:'black'}}href="/">info@bmczemin.com.tr</Link></li>
+                           </ul> */}
+                {/* <div className="offset-menu-section">
                     <h3>Contact Info</h3>
                     <ul>
                         <li>
@@ -71,26 +78,8 @@ function OffsetMenu({ className, handleOffset }) {
                             Sunday: Closed
                         </li>
                     </ul>
-                </div>
-                <div className="offset-menu-footer">
-                    <div className="offset-menu-social-icon">
-                        <a href="/">
-                            <FaFacebookF />
-                        </a>
-                        <a href="/">
-                            <FaTwitter />
-                        </a>
-                        <a href="/">
-                            <FaLinkedinIn />
-                        </a>
-                        <a href="/">
-                            <FaDribbble />
-                        </a>
-                        <a href="/">
-                            <FaYoutube />
-                        </a>
-                    </div>
-                </div>
+                </div> */}
+              
             </div>
         </div>
     );

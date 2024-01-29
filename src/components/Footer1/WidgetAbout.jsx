@@ -11,16 +11,16 @@ function WidgetAbout({ text, fbLink, twitterLink, instaLink, youtubeLink }) {
                     </div>
                     <p>{text}</p>
                     <div className="social_link">
-                        <a href={fbLink}>
+                        <a to={fbLink}>
                             <FaFacebookF />
                         </a>
-                        <a href={twitterLink}>
+                        <a to={twitterLink}>
                             <FaTwitter />
                         </a>
-                        <a href={instaLink}>
+                        <a to={instaLink}>
                             <FaInstagram />
                         </a>
-                        <a href={youtubeLink}>
+                        <a to={youtubeLink}>
                             <FaYoutube />
                         </a>
                     </div>

@@ -45,10 +45,10 @@ function Footer2() {
                                         <Link to="/faq">Faq</Link>
                                     </li>
                                     <li>
-                                        <Link to="/about">Terms and Conditions</Link>
+                                        <Link to="/hakkimizda">Terms and Conditions</Link>
                                     </li>
                                     <li>
-                                        <Link to="/about">Privacy and Policy</Link>
+                                        <Link to="/hakkimizda">Privacy and Policy</Link>
                                     </li>
                                 </ul>
                             </div>

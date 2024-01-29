@@ -39,6 +39,12 @@ const servicesOneData = [
         icon: Icon4,
         heading: 'Dekoratif Zemin ',
         btnText: 'İncele',
+    },{
+        id: uuidv4(),
+        bgImg: Bg4,
+        icon: Icon4,
+        heading: 'Beton Silim ',
+        btnText: 'İncele',
     },
 ];
 

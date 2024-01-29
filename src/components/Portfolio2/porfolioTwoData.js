@@ -9,7 +9,7 @@ const portfolioTwoData = [
         id: uuidv4(),
         image: img1,
         name: 'Rosalina D.',
-        heading: 'Leverage agile motive frameworks',
+        heading: 'Leverages agile motive frameworks',
         cost: '$56,000',
     },
 

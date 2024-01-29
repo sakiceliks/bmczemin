@@ -14,8 +14,8 @@ const projectFilterData = [
         image: img1,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'bedroom',
+        heading: 'Rosalis Office Design',
+        category: 'SSSS',
     },
 
     {

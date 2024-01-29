@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function BlogOneItem({ thumb, date, month, category, author, title, link }) {
+function BlogOneItem({ thumb, day, month, category, author, title, slug }) {
     return (
         <>
             <div className="col-lg-4 col-md-6 col-12">
@@ -14,20 +14,20 @@ function BlogOneItem({ thumb, date, month, category, author, title, link }) {
                     />
                     <div className="post-content">
                         <div className="post-date">
-                            <span>{date}</span>
+                            <span>{day}</span>
                             {month}
                         </div>
-                        <div className="post-meta">
-                            <Link to={link} className="post-cat">
+                        <div style={{display:'flex',flexDirection:'column'}} className="post-meta">
+                        <Link to={`/blogs/${slug}`} className="post-cat">
                                 {category}
                             </Link>{' '}
-                            /
-                            <Link to={link} className="post-author">
+                            
+                            <Link to={`/blogs/${slug}`} className="post-author">
                                 {author}
                             </Link>
                         </div>
                         <h3>
-                            <Link to={link}>{title}</Link>
+                        <Link to={`/blogs/${slug}`}>{title}</Link>
                         </h3>
                     </div>
                 </div>

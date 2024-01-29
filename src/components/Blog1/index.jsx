@@ -1,10 +1,55 @@
-import React from 'react';
-import blogOneData from './BlogOneData';
+/* eslint-disable react/jsx-no-duplicate-props */
+"use client";
+import { Client, Databases, ID } from "appwrite";
+import { useEffect, useState } from 'react';
+
+
 import BlogOneItem from './BlogOneItem';
 
 function Blog1() {
+    const client = new Client()
+    .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+    .setProject("654d24a6efcad9eb4ff2");
+    
+    const databases = new Databases(client);
+    
+    let promise = databases.listDocuments(
+        "654d42331f1604783143",
+        "654d42463d470160bb95",
+    );
+    
+    promise.then(function (response) {
+        console.log(response);
+    }, function (error) {
+        console.log(error);
+    });
+
+    const [documents, setDocuments] = useState([]);
+
+    useEffect(() => {
+        const fetchData = async () => {
+          try {
+            client
+            .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+            .setProject('654d24a6efcad9eb4ff2');
+      
+            const databases = new Databases(client);
+      
+            const response = await databases.listDocuments(
+                "654d42331f1604783143",
+                "654d42463d470160bb95",
+            );
+      
+            setDocuments(response.documents);
+          } catch (error) {
+            console.error('Error fetching documents:', error);
+          }
+        };
+      
+        fetchData();
+      }, []);
     return (
-        <section className="blog-section section-padding">
+        <section style={{backgroundColor:'#1a202c'}} className="blog-section section-padding">
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-12">
@@ -17,16 +62,17 @@ function Blog1() {
                 </div>
 
                 <div className="row">
-                    {blogOneData.map((data) => (
+                {documents.slice(0, 6).map((data) => (
                         <BlogOneItem
-                            key={data.id}
+                            key={data.$id}
                             thumb={data.thumbnail}
                             date={data.date}
-                            month={data.month}
                             category={data.category}
                             author={data.author}
-                            title={data.title}
-                            link={data.link}
+                            month={data.month}
+                            day={data.day}
+                            title={data.slug}
+                            slug={data.slug}
                         />
                     ))}
                 </div>

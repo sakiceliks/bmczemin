@@ -35,13 +35,13 @@ function ProjectFilter() {
                             <CategoryBtn
                                 className={category === 'all' ? 'btn-active' : null}
                                 name="all"
-                                label="Veiw All"
+                                label=" Tümü"
                                 handleSetCategory={setCategory}
                             />
                             <CategoryBtn
-                                className={category === 'bedroom' ? 'btn-active' : null}
-                                name="bedroom"
-                                label="Bedrooms Making"
+                                className={category === 'baski-betonu' ? 'btn-active' : null}
+                                name="baski-betonu"
+                                label="Baskı Betonu"
                                 handleSetCategory={setCategory}
                             />
                             <CategoryBtn

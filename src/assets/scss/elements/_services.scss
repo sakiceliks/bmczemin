@@ -58,13 +58,13 @@
             position: absolute;
             width: 100%;
             height: 100%;
-            opacity: 0qqqqq;
+            opacity:1;
             left: 0;
             top: 0;
             content: "";
             z-index: -1;
             border-radius: 10px;
-            visibility: hidden;
+            visibility: visible;
             transition: all 0.3s ease-in-out;
             overflow: hidden;
 
@@ -98,7 +98,7 @@
             font-size: 26px;
             letter-spacing: -1px;
             transition: all 0.3s ease-in-out;
-
+color:#fff;
             @media (max-width: 767px) {
                 font-size: 22px;
             }
@@ -704,7 +704,7 @@
 
                     p {
                         font-weight: 600;
-                        color: #001248;
+                        color: #FFF;
                         font-size: 17px;
                     }
                 }

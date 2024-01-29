@@ -16,8 +16,8 @@ function FeedsWidget({ thumbnail, heading, meta }) {
                     <Link to="/news-details">{heading}</Link>
                 </h5>
                 <div className="post-date">
-                    <BiCalendar />
-                    {meta}
+                    {/* <BiCalendar />
+                    {meta} */}
                 </div>
             </div>
         </div>

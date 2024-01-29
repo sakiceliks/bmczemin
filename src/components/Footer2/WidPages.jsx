@@ -12,7 +12,7 @@ function WidPages() {
                     <Link to="/home-2">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/hakkimizda">About</Link>
                 </li>
                 <li>
                     <Link to="/services">Services</Link>
@@ -24,7 +24,7 @@ function WidPages() {
                     <Link to="/team">Pricing</Link>
                 </li>
                 <li>
-                    <Link to="/about">Insights</Link>
+                    <Link to="/hakkimizda">Insights</Link>
                 </li>
             </ul>
         </div>

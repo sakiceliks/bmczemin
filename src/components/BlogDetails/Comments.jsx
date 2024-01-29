@@ -6,7 +6,7 @@ import img3 from '../../assets/img/blog/author3.jpg';
 import img1 from '../../assets/img/blog/author_img.jpg';
 import ReplayComment from './ReplayComment';
 
-function Comments() {
+function Comments({author}) {
     return (
         <div className="comments-section-wrap pt-40">
             <div className="comments-heading">
@@ -20,7 +20,7 @@ function Comments() {
                     <div className="author-info-comment">
                         <div className="info">
                             <h5>
-                                <Link to="/news-details">Rosalina Kelian</Link>
+                                <Link to="/news-details">{author}</Link>
                             </h5>
                             <span>19th May 2018</span>
                             <Link to="/news-details" className="theme-btn minimal-btn">

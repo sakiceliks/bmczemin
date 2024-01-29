@@ -62,7 +62,6 @@ const MobileMenu = () => {
                         {menuData.map((item, index) => (
                             <SubMenu item={item} key={index} />
                         ))}
-                        <MenuContent />
                     </SidebarWrap>
                 </SidebarNav>
             </>

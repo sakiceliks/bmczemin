@@ -4,8 +4,8 @@ import BgImg from '../../assets/img/subscribe_bg.jpg';
 
 function Cta() {
     return (
-        <section className="cta-wrapper">
-            <div className="container">
+        <section className="cta-wrapper ">
+            <div className="container w-100">
                 <div
                     className="cta-content bg-cover"
                     style={{
@@ -18,7 +18,7 @@ function Cta() {
                         </div>
                         <div className="col-xl-4 pl-xl-0 mt-4 mt-xl-0 col-12 text-center text-xl-left">
                             <div className="contact-info">
-                                <div className="icon">
+                                <div className="icon justify-content-center items-center">
                                     <AiOutlinePhone />
                                 </div>
                                 <div className="contact-number">

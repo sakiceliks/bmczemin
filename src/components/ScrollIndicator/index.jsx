@@ -13,6 +13,8 @@ const ScrollTopWrapper = styled.div`
     button {
         border: none;
         width: 40px;
+        display:inline-flex;
+        justify-align:center;
         height: 40px;
         background-color: #f0541b;
         color: #fff;
@@ -74,11 +76,11 @@ function ScrollIndicator() {
     return (
         <ScrollTopWrapper>
             <button
-                className={isVisible ? 'd-block' : 'd-none'}
+                className={isVisible ? 'd-inline-flex align-middle justify-content-center' : 'd-none'}
                 type="button"
                 onClick={scrollToTop}
             >
-                <FaChevronUp className="icon" />
+                <FaChevronUp className="icon mt-2 align-middle" />
             </button>
         </ScrollTopWrapper>
     );

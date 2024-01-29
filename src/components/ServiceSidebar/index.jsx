@@ -56,22 +56,22 @@ function ServiceSidebar() {
             </div>
             <div className="single-service-sidebar">
                 <div className="sidebar-title">
-                    <h3>Download Brochures</h3>
+                    <h3>Katalog İndir</h3>
                 </div>
                 <div className="brochures-download">
                     <ServiceDownload
                         link="/services-details"
-                        text="Download .PDF"
+                        text="Genel Katalog"
                         icon={<FaFilePdf style={{ marginTop: '-5px', marginRight: '5px' }} />}
                     />
                     <ServiceDownload
                         link="/services-details"
-                        text="Download .DOC"
+                        text="Stone Carpet Katalog"
                         icon={<FaFileWord style={{ marginTop: '-5px', marginRight: '5px' }} />}
                     />
                     <ServiceDownload
                         link="/services-details"
-                        text="Download .PPT"
+                        text="Epoksi Katalog"
                         icon={
                             <FaFilePowerpoint style={{ marginTop: '-5px', marginRight: '5px' }} />
                         }
@@ -80,22 +80,22 @@ function ServiceSidebar() {
             </div>
             <div className="single-service-sidebar site_info_widget">
                 <div className="sidebar-title">
-                    <h3>Contact Us</h3>
+                    <h3>İletişime Geç</h3>
                 </div>
                 <div className="contact-us">
                     <ServiceContact
-                        title="Phone Number"
+                        title="Tel:"
                         text="+90 531 281 29 58"
                         icon={<AiOutlinePhone />}
                     />
                     <ServiceContact
-                        title="Email Address"
-                        text="info@supportexam.com"
+                        title="Email Adresi"
+                        text="info@bmczemin.com.tr"
                         icon={<AiOutlineMail />}
                     />
                     <ServiceContact
-                        title="Office Address"
-                        text="14/A, Ping Tower, NYC"
+                        title="Adres"
+                        text="Sultanbeyli /  İstanbul"
                         icon={<FaMapMarkerAlt />}
                     />
                     {/* <div className="single-contact-info">

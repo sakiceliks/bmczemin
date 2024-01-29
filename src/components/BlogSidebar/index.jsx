@@ -7,33 +7,34 @@ import FeedsWidget from './FeedsWidget';
 import InstaWidget from './InstaWidget';
 import SearchWidget from './SearchWidget';
 import SocialWidget from './SocialWidget';
-
-function BlogSidebar() {
+import blogOneData from '../AllBlogs/BlogOneData';
+function BlogSidebar({author,id,title,content,thumbnail}) {
     return (
         <div className="col-12 col-lg-4">
             <div className="main-sidebar">
                 <AuthorWidget
-                    title="About Me"
+                    title="Hakkımda"
                     authorImg={authorImg}
-                    authorName="Rosalina D. Willaimson"
+                    authorName={author}
                     text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore."
                     fbLink="/"
                     twitterLink="/"
                     linkedinLink="/"
                     YoutubeLink="/"
-                />
-                <SearchWidget />
+                />        
+                {/* <SearchWidget /> */}
                 <div className="single-sidebar-widget">
                     <div className="wid-title">
                         <h3>Popular Feeds</h3>
                     </div>
                     <div className="popular-posts">
-                        {feedsData.map((data) => (
+                        {blogOneData.map((data) => (
                             <FeedsWidget
                                 key={data.id}
                                 thumbnail={data.thumbnail}
-                                heading={data.heading}
-                                meta={data.meta}
+                                heading={data.title}
+                                meta={data.content}
+                                slug={data.slug}
                             />
                         ))}
                     </div>

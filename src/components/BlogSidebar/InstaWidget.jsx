@@ -10,22 +10,22 @@ function InstaWidget() {
     return (
         <div className="instagram-gallery">
             <SRLWrapper>
-                <a href={img1} className="single-photo-item bg-cover ">
+                <a to={img1} className="single-photo-item bg-cover ">
                     <img src={img1} alt="" />
                 </a>
-                <a href={img2} className="single-photo-item bg-cover ">
+                <a to={img2} className="single-photo-item bg-cover ">
                     <img src={img2} alt="" />
                 </a>
-                <a href={img3} className="single-photo-item bg-cover ">
+                <a to={img3} className="single-photo-item bg-cover ">
                     <img src={img3} alt="" />
                 </a>
-                <a href={img4} className="single-photo-item bg-cover ">
+                <a to={img4} className="single-photo-item bg-cover ">
                     <img src={img4} alt="" />
                 </a>
-                <a href={img5} className="single-photo-item bg-cover ">
+                <a to={img5} className="single-photo-item bg-cover ">
                     <img src={img5} alt="" />
                 </a>
-                <a href={img6} className="single-photo-item bg-cover ">
+                <a to={img6} className="single-photo-item bg-cover ">
                     <img src={img6} alt="" />
                 </a>
             </SRLWrapper>

@@ -5,12 +5,19 @@ import MobileMenu from '../MobileMenu';
 import OffsetMenu from '../OffsetMenu';
 import MainMenu from './MainMenu';
 import Topbar from './Topbar';
+import Hero1 from '../Hero1';
+import { FaTh } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 function Header1() {
     const [offset, setOffset] = useState(false);
     const handleOffset = () => {
         setOffset(!offset);
     };
+
+
+    const location = useLocation()
     return (
         <>
             <OffsetMenu
@@ -31,33 +38,38 @@ function Header1() {
                             <div className="mobile-nav-wrap">
                                 <MobileMenu />
                             </div>
+                            
                         </div>
-                        <div className="col-12 d-none d-md-block col-lg-9">
+                        
+                        <div className="col-9 d-none d-md-block col-lg-9">
+                        <button  type="button" onClick={handleOffset} className="new-menu-toggle d-inline-flex">
+                            Menü 
+                            <FaTh style={{marginLeft:'2px'}} />
+                            
+                        </button>           
                             <div className="header-contact-info text-lg-right">
                                 <div className="single-element">
                                 <Link style={{color:'white'}}>(+90) 531 281 29 58</Link>
                                     {/* <span>Hemen İletişime Geç</span> */}
                                 </div>
                                 <div className="single-element">
-                                    <a style={{color:'white'}}href="/">info@bmczemin.com.tr</a>
+                                    <Link style={{color:'white'}}href="/">info@bmczemin.com.tr</Link>
                                     {/* <span>Mail Us Now</span> */}
                                 </div>
                                 <div className="header-btn d-inline">
                                     <Link to="/contact" className="theme-btn">
                                         İletişime Geç
                                     </Link>
-                                </div>
+
+                                                         </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="menu-wrapper d-none d-lg-block">
-                    <div className="container">
-                        <MainMenu hanldeOffset={handleOffset} />
-                    </div>
-                </div>
+                
             </header>
+            {location.pathname === '/' && <Hero1 />}
         </>
     );
 }

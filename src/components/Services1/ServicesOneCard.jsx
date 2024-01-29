@@ -2,21 +2,21 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-function ServicesOneCard({ bgImg, icon, id,heading, btnText }) {
+function ServicesOneCard({ bgImg, icon, id,heading, btnText,slug }) {
     return (
-        <div className="col-md-6 col-xl-3 col-12">
-            <div className="single-service-item service-1">
+        <div className="col-lg-3 col-md-6 p-3 mb-3">
+            <div className="w-100 h-100 p-3  single-service-item service-1">
                 <div
                     className="service-bg bg-cover"
                     style={{
                         backgroundImage: `url(${bgImg})`,
                     }}
                 />
-                <div className="icon">
+                <div style={{opacity:'0'}} className="icon">
                     <img src={icon} alt="icon" />
                 </div>
                 <h3>{heading}</h3>
-                <Link to={`/hizmetler/${id}`}>
+                <Link className="justify-content-center d-inline-flex" to={`/hizmetler/${slug}`}>
                     <span>{btnText}</span>
                     <BsArrowRight style={{ fontSize: '18px' }} />
                 </Link>
