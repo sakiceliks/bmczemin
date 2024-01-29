@@ -14,10 +14,10 @@ const menuData = [
         title: 'Hakkımızda',
         path: '/hakkimizda',
     },
-{  title: 'Blog',
-path: '/blogs',
+// {  title: 'Blog',
+// path: '/blogs',
 
-},
+// },
     {
         title: 'Projeler',
         path: '/projects',
@@ -31,10 +31,10 @@ path: '/blogs',
         path: '/services',
     },
 
-    {
-        title: 'Bülten',
-        path: '/news',
-    },
+    // {
+    //     title: 'Bülten',
+    //     path: '/news',
+    // },
 
     {
         title: 'İletişim',

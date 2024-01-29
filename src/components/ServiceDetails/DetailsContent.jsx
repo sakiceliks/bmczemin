@@ -7,12 +7,12 @@ function DetailsContent({ id, thumbnail, icon, heading, content,slogan,areause,c
     console.log(id);
     return (
         <>
-            <h2>{heading}</h2>
+            <h2 style={{color:'#f0541b'}}>{heading}</h2>
             <p>
                 {content}
             </p>
 
-            <h2>{heading} Neden Tercih Edilir ve Nerelerde kullanılır?</h2>
+            <h2 style={{color:'#f0541b'}}>{heading} Neden Tercih Edilir ve Nerelerde kullanılır?</h2>
             <p>
                {areause}
             </p>

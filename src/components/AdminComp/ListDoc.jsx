@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 function ListDoc() {
     const client = new Client()
-    .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+    .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
     .setProject("654d24a6efcad9eb4ff2");
     
     const databases = new Databases(client);
@@ -27,7 +27,7 @@ function ListDoc() {
         const fetchData = async () => {
           try {
             client
-            .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+            .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
             .setProject('654d24a6efcad9eb4ff2');
       
             const databases = new Databases(client);

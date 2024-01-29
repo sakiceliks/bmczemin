@@ -11,56 +11,65 @@ import img4 from '../../assets/img/portfolio/project4.jpg';
 const projectFilterData = [
     {
         id: uuidv4(),
-        image: img1,
+        image: 'https://bmczemin.com.tr/wp-content/uploads/2023/09/cyclistoncyclepathperthbikeweek.jpg',
         name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosalis Office Design',
+        price: 'İstanbul',
+        heading: 'Rosalis spor-zemin Design',
         category: 'SSSS',
     },
 
     {
         id: uuidv4(),
-        image: img2,
+        image: 'https://bmczemin.com.tr/wp-content/uploads/2023/09/KD2Q1528.jpg',
         name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'floor',
+        price: 'İstanbul',
+        heading: 'Rosali spor-zemin Design',
+        category: 'baski-betonu',
     },
 
     {
         id: uuidv4(),
         image: img2,
         name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'home',
+        price: 'İstanbul',
+        heading: 'Rosali spor-zemin Design',
+        category: 'epoksi-zemin',
     },
 
     {
         id: uuidv4(),
-        image: img3,
+        image: 'https://bmczemin.com.tr/wp-content/uploads/2023/09/cyclistoncyclepathperthbikeweek.jpg',
         name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'office',
+        price: 'İstanbul',
+        heading: 'Rosali spor-zemin Design',
+        category: 'spor-zemin',
     },
 
     {
         id: uuidv4(),
-        image: img4,
+        image: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b71efe30397fa473f1/view?project=654d24a6efcad9eb4ff2&mode=admin',
         name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'bedroom',
+        price: 'İstanbul',
+        heading: 'Rosali spor-zemin Design',
+        category: 'mikro-beton',
     },
 
     {
         id: uuidv4(),
-        image: img5,
+        image: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b71f045f6cba54fe04/view?project=654d24a6efcad9eb4ff2&mode=admin',
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'bedroom',
+        heading: 'Rosali spor-zemin Design',
+        category: 'mikro-beton',
+    },
+
+    {
+        id: uuidv4(),
+        image: 'https://bmczemin.com.tr/wp-content/uploads/2023/09/ideas-of-stamped-concrete-pool-patio-desigFILIGRAN.jpg',
+        name: 'Rosalina D.',
+        price: '$56,000',
+        heading: 'Rosali spor-zemin Design',
+        category: 'baski-betonu',
     },
 
     {
@@ -68,17 +77,8 @@ const projectFilterData = [
         image: img6,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'floor',
-    },
-
-    {
-        id: uuidv4(),
-        image: img6,
-        name: 'Rosalina D.',
-        price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'home',
+        heading: 'Rosali spor-zemin Design',
+        category: 'epoksi-zemin',
     },
 
     {
@@ -86,8 +86,8 @@ const projectFilterData = [
         image: img7,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'bedroom',
+        heading: 'Rosali spor-zemin Design',
+        category: 'mikro-beton',
     },
 
     {
@@ -95,8 +95,8 @@ const projectFilterData = [
         image: img7,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'home',
+        heading: 'Rosali spor-zemin Design',
+        category: 'epoksi-zemin',
     },
 
     {
@@ -104,8 +104,8 @@ const projectFilterData = [
         image: img7,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'home',
+        heading: 'Rosali spor-zemin Design',
+        category: 'epoksi-zemin',
     },
 
     {
@@ -113,9 +113,8 @@ const projectFilterData = [
         image: img8,
         name: 'Rosalina D.',
         price: '$56,000',
-        heading: 'Rosali Office Design',
-        category: 'office',
+        heading: 'Rosali spor-zemin Design',
+        category: 'spor-zemin',
     },
 ];
-
 export default projectFilterData;
