@@ -18,48 +18,28 @@ const sponsorData = [
 
     {
         id: uuidv4(),
-        sponsorLogo: logo2,
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba3e5b1dfc5705af/view?project=654d24a6efcad9eb4ff2&mode=admin',
     },
 
     {
         id: uuidv4(),
-        sponsorLogo: logo3,
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba377a713beb313c/view?project=654d24a6efcad9eb4ff2&mode=admin',
     },
 
     {
         id: uuidv4(),
-        sponsorLogo: logo4,
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba30a2bc5164fc38/view?project=654d24a6efcad9eb4ff2&mode=admin',
     },
 
     {
         id: uuidv4(),
-        sponsorLogo: logo5,
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba2859a5283929a9/view?project=654d24a6efcad9eb4ff2&mode=admin',
     },
 
     {
         id: uuidv4(),
-        sponsorLogo: logo6,
-    },
-
-    {
-        id: uuidv4(),
-        sponsorLogo: logo7,
-    },
-
-    {
-        id: uuidv4(),
-        sponsorLogo: logo8,
-    },
-
-    {
-        id: uuidv4(),
-        sponsorLogo: logo9,
-    },
-
-    {
-        id: uuidv4(),
-        sponsorLogo: logo10,
-    },
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba20bb71794abb02/view?project=654d24a6efcad9eb4ff2&mode=admin',
+    }
 ];
 
 export default sponsorData;
