@@ -139,7 +139,7 @@ const servicesTwoData = [
     {
         id: uuidv4(),
         thumbnail:
-            'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/654d83a7894c172ca5ed/view?project=654d24a6efcad9eb4ff2&mode=admin',
+            'https://mir-s3-cdn-cf.behance.net/project_modules/1400/b0099b184608815.6554f122bb4fd.jpg',
         icon: <FaCity />,
         cover1:'https://bmczemin.com.tr/wp-content/uploads/2023/09/KD2Q1528.jpg',
         cover2:'https://bmczemin.com.tr/wp-content/uploads/2023/09/ideas-of-stamped-concrete-pool-patio-desigFILIGRAN.jpg',
