@@ -19,7 +19,7 @@ const BlogCreate = () => {
     setUploading(true);
 
     const client = new Client()
-      .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+      .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
       .setProject("654d24a6efcad9eb4ff2"); // Your project ID
 
     const storage = new Storage(client);
@@ -43,7 +43,7 @@ const BlogCreate = () => {
       const url = `https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/${response.$id}/view?project=654d24a6efcad9eb4ff2`;
 
       client
-        .setEndpoint("https://sai.sakicelik.com.tr/v1") // Appwrite Endpoint
+        .setEndpoint("https://process.env.REACT_APP_ENDPOINT") // Appwrite Endpoint
         .setProject("654d24a6efcad9eb4ff2"); // Your project ID
 
       const databases = new Databases(client);
