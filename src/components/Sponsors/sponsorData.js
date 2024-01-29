@@ -13,7 +13,7 @@ import logo9 from '../../assets/img/brand/b9.png';
 const sponsorData = [
     {
         id: uuidv4(),
-        sponsorLogo: logo1,
+        sponsorLogo: 'https://cloud.appwrite.io/v1/storage/buckets/654d8330461412b1b65a/files/65b7ba466358846d1454/view?project=654d24a6efcad9eb4ff2&mode=admin',
     },
 
     {
