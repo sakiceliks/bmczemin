@@ -13,8 +13,8 @@ function Services() {
             <Header1 />
             <PageBanner bannerBg={bannerBg} currentPage="Hizmetlerimiz" heading="Faaliyet Alanlarımız" />
             <Services2 />
-            <Process />
-            <ProjectFilter2 />
+            {/* <Process />
+            <ProjectFilter2 /> */}
             <Footer1 />
         </>
     );

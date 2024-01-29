@@ -9,7 +9,7 @@ function Projects() {
     return (
         <>
             <Header1 />
-            <PageBanner bannerBg={bannerBg} heading="Case Study" currentPage="Project" />
+            <PageBanner bannerBg={bannerBg} heading="Projelerimiz" currentPage="Project" />
             <ProjectFilter />
             <Footer1 />
         </>
