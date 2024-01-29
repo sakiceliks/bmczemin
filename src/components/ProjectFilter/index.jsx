@@ -22,9 +22,9 @@ function ProjectFilter() {
                 <div className="row">
                     <div className="col-12 col-lg-12 text-center">
                         <div className="section-title-2">
-                            <span>Portfolio</span>
-                            <p>Portfolio</p>
-                            <h1>Our Case Study</h1>
+                            <span></span>
+                            {/* <p>Portfolio</p> */}
+                            <h1>Projelerimiz</h1>
                         </div>
                     </div>
                 </div>
@@ -44,24 +44,50 @@ function ProjectFilter() {
                                 label="Baskı Betonu"
                                 handleSetCategory={setCategory}
                             />
-                            <CategoryBtn
-                                className={category === 'floor' ? 'btn-active' : null}
-                                name="floor"
-                                label="Floor Making"
+                             <CategoryBtn
+                                className={category === 'epoksi-zemin' ? 'btn-active' : null}
+                                name="epoksi-zemin"
+                                label="Epoksi Zemin"
                                 handleSetCategory={setCategory}
                             />
                             <CategoryBtn
-                                className={category === 'office' ? 'btn-active' : null}
-                                name="office"
-                                label="Office Making"
+                                className={category === 'stone-carpet' ? 'btn-active' : null}
+                                name="stone-carpet"
+                                label='Taş Halı Kaplama'
                                 handleSetCategory={setCategory}
                             />
                             <CategoryBtn
-                                className={category === 'home' ? 'btn-active' : null}
-                                name="home"
-                                label="Home Making"
+                                className={category === 'sbr-kaucuk' ? 'btn-active' : null}
+                                name="sbr-kaucuk"
+                                label="SBR Kauçuk"
                                 handleSetCategory={setCategory}
                             />
+                            <CategoryBtn
+                                className={category === 'mikro-beton' ? 'btn-active' : null}
+                                name="mikro-beton"
+                                label="Mikro Beton"
+                                handleSetCategory={setCategory}
+                            />
+                             <CategoryBtn
+                                className={category === 'dekoratif-beton' ? 'btn-active' : null}
+                                name="dekoratif-beton"
+                                label="Dekoratif Baskı Betonu"
+                                handleSetCategory={setCategory}
+                            />
+                             <CategoryBtn
+                                className={category === 'beton-silimi' ? 'btn-active' : null}
+                                name="beton-silimi"
+                                label="Beton Silimi"
+                                handleSetCategory={setCategory}
+                            />
+
+                                                            <CategoryBtn
+                                className={category === 'spor-zemin' ? 'btn-active' : null}
+                                name="spor-zemin"
+                                label="Spor Zemin Sistemleri"
+                                handleSetCategory={setCategory}
+                            />
+                            
                         </div>
                     </div>
                 </div>

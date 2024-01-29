@@ -24,7 +24,7 @@ function ProjectFilter2() {
                         <div className="section-title-2">
                             <span>Portfolio</span>
                             <p>Portfolio</p>
-                            <h1>Our Case Study</h1>
+                            <h1>Our Projelerimiz</h1>
                         </div>
                     </div>
                 </div>

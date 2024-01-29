@@ -21,8 +21,8 @@ function SevicesTwoCard({ thumbnail, icon,slug, id,heading, text }) {
                         <Link  to={`/hizmetler/${slug}`}>{heading}</Link>
                     </h3>
                     {/* <p>{text}</p> */}
-                    <div className='d-grid gap-2'>
-                    <Link to={`/hizmetler/${slug}`} style={{textAlign:'center'}} className="d-flex justify-content-evenly align-center flex-row text-center btn btn-outline-primary serviceincele">
+                    <div className='d-grid gap-2 justify-content-center'>
+                    <Link to={`/hizmetler/${slug}`} style={{textAlign:'center'}} className="w-120 d-flex justify-content-evenly align-center flex-row text-center btn btn-outline-primary serviceincele">
                         İncele <BsArrowRight />
                     </Link>
                     </div>
