@@ -60,7 +60,7 @@ function AboutFeatured() {
                                 />
                                 <IconBox
                                     icon={<FaRoad />}
-                                    heading="Beton Parlatma"
+                                    heading="Epoksi Zemin"
                                     text="Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt"
                                 /> <IconBox
                                 icon={<FaHardHat />}
